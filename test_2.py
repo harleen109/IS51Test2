@@ -39,3 +39,25 @@ test_list = open("D:\Final.txt, "rt")
 k = whatever the average number comes out to
 
 print ("the list :" + str(test_list))
+
+"""
+
+file = open(r"D:\Final.txt", "r")
+Function1 = 0
+for line in file :
+    parts = line.split()
+    Function1 += len(parts)
+
+print("Number of Grades :", (Function1))
+
+
+# space
+
+Function2 = []
+
+with open(r'D:\Final.txt') as f:
+      Function2 = [float(line.rstrip()) for line in f]
+biggest = min(Function2)
+smallest = max(Function2)
+(biggest - smallest)
+print("Average grade: ", sum(Function2) / len(Function2))
