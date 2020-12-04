@@ -7,3 +7,5 @@ The program will need to output the percentage of students who scocred above the
 Function1 will output data.split()
 Funciton2 will output sum(data) / len(data)
 Function3 will output count = count + 54.17
+
+"""
