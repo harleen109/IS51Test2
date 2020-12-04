@@ -7,3 +7,35 @@ The program will need to output the percentage of students who scocred above the
 Function1 will output data.split()
 Funciton2 will output sum(data) / len(data)
 Function3 will output count = count + 54.17
+
+"""
+
+"""
+
+#Function1
+
+file = open("D:\Final.txt, "rt")
+data = file.read()
+Function1 = data.split
+
+print('Number of Grades: ', len(Function1))
+
+
+#Function2
+
+Function2 = []
+with open("D:\Final.txt, "rt")
+     for line in rt:
+         fields = line.split()
+         rowdata = map(str.format, fields)
+         Function2.extend(rowdata)
+print(sum(Function2)/len(Function2))
+
+
+#Function3 
+
+test_list = open("D:\Final.txt, "rt")
+
+k = whatever the average number comes out to
+
+print ("the list :" + str(test_list))
